@@ -1,0 +1,43 @@
+---
+title: "lab06-yueling-wu"
+author: "yueling wu"
+date: "10/3/2018"
+output: html_document
+---
+
+```{bash, eval=FALSE}
+IrenedeMacBook-Pro:~ yuelingwu$ cd ~/Desktop
+IrenedeMacBook-Pro:Desktop yuelingwu$ mkdir lab06
+IrenedeMacBook-Pro:Desktop yuelingwu$ cd lab06
+IrenedeMacBook-Pro:lab06 yuelingwu$ mkdir data code output images
+IrenedeMacBook-Pro:lab06 yuelingwu$ ls
+code	data	images	output
+IrenedeMacBook-Pro:lab06 yuelingwu$ touch README.md
+IrenedeMacBook-Pro:lab06 yuelingwu$ cd data
+IrenedeMacBook-Pro:data yuelingwu$ curl -O https://raw.githubusercontent.com/ucb-stat133/stat133-fall-2018/master/data/nba2018-players.csv
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 43242  100 43242    0     0   174k      0 --:--:-- --:--:-- --:--:--  175k
+IrenedeMacBook-Pro:data yuelingwu$ ls
+nba2018-players.csv
+IrenedeMacBook-Pro:data yuelingwu$ wc nba2018-players.csv
+     478    1818   43242 nba2018-players.csv
+IrenedeMacBook-Pro:data yuelingwu$ head nba2018-players.csv
+"player","team","position","height","weight","age","experience","college","salary","games","minutes","points","points3","points2","points1"
+"Al Horford","BOS","C",82,245,30,9,"University of Florida",26540100,68,2193,952,86,293,108
+"Amir Johnson","BOS","PF",81,240,29,11,"",1.2e+07,80,1608,520,27,186,67
+"Avery Bradley","BOS","SG",74,180,26,6,"University of Texas at Austin",8269663,55,1835,894,108,251,68
+"Demetrius Jackson","BOS","PG",73,201,22,0,"University of Notre Dame",1450000,5,17,10,1,2,3
+"Gerald Green","BOS","SF",79,205,31,9,"",1410598,47,538,262,39,56,33
+"Isaiah Thomas","BOS","PG",69,185,27,5,"University of Washington",6587132,76,2569,2199,245,437,590
+"Jae Crowder","BOS","SF",78,235,26,4,"Marquette University",6286408,72,2335,999,157,176,176
+"James Young","BOS","SG",78,215,21,2,"University of Kentucky",1825200,29,220,68,12,13,6
+"Jaylen Brown","BOS","SF",79,225,20,0,"University of California",4743000,78,1341,515,46,146,85
+IrenedeMacBook-Pro:data yuelingwu$ tail -5 nba2018-players.csv
+"Marquese Chriss","PHO","PF",82,233,19,0,"University of Washington",2941440,82,1743,753,72,212,113
+"Ronnie Price","PHO","PG",74,190,33,11,"Nicholls State University, Utah Valley State College",465143,14,134,14,3,1,3
+"T.J. Warren","PHO","SF",80,230,23,2,"North Carolina State University",2128920,66,2048,951,26,377,119
+"Tyler Ulis","PHO","PG",70,150,21,0,"University of Kentucky",918369,61,1123,444,21,163,55
+"Tyson Chandler","PHO","C",85,240,34,15,"",12415000,47,1298,397,0,153,91
+```
+
