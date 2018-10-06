@@ -1,10 +1,9 @@
 # ===================================================================
-# Title: Cleaning Data
+# Title: More data wrangling and outputs
 # Description:
-#   This script performs cleaning tasks and transformations on 
-#   various columns of the raw data file.
-# Input(s): data file 'raw-data.csv'
-# Output(s): data file 'clean-data.csv'
+#   Practice exporting tables,R output, plot images. Learn about pipelines
+# Input(s): data file 'nba2018-players.csv'
+# Output(s): data file 'lab06-yueling-wu.html'
 # Author: Yueling Wu
 # Date: 10-03-2018
 # ===================================================================
